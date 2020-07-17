@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PXPAY_Interaction__c</fullName>
+    <description>Flag if this case is an interaction case</description>
+    <externalId>false</externalId>
+    <formula>RecordType.DeveloperName = &apos;Chat&apos; ||  RecordType.DeveloperName = &apos;Email&apos; || RecordType.DeveloperName = &apos;Phone&apos;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Interaction</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
